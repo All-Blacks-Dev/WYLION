@@ -329,7 +329,7 @@ public class ImageWorker {
             Bitmap bitmap = null;
             byte[] data;
             try {
-                data = HttpUtil.getInstance().getDataAsByteArray(url, ApacheCredentialProvider.getCredentialsProvider());
+                data = HttpUtil.getInstance().getDataAsByteArray(url, ApacheCredentialProvider.getCredentialsProvider("",""));
                 bitmap = BitmapFactory.decodeByteArray(data, 0, data.length, bgOptions);
 
                 /**

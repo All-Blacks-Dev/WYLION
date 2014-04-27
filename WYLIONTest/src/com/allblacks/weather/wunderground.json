@@ -1,4 +1,3 @@
-// http://api.wunderground.com/api/b18c1b3111bcf246/geolookup/conditions/forecast10day/q/Europe/Erezee.json
 {
     "response": {
         "version": "0.1",

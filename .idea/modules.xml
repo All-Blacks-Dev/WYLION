@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/WYLION.iml" filepath="$PROJECT_DIR$/WYLION.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WYLIONTest/WYLIONTest.iml" filepath="$PROJECT_DIR$/WYLIONTest/WYLIONTest.iml" />
     </modules>
   </component>
 </project>
