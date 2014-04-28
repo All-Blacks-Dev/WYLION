@@ -1,6 +1,6 @@
-**/bin
-**/gen
-**local.properties
-**/.idea
-**/out
-**/*.iml
+*/bin
+*/gen
+local.properties
+*/.idea
+*/out
+**.iml
