@@ -1,6 +1,12 @@
-*/bin
-*/gen
+/bin
+/gen
+/.idea
+/out
 local.properties
-*/.idea
-*/out
-**.iml
+*.iml
+
+/WYLIONTest/bin
+/WYLIONTest/gen
+/WYLIONTest/.idea
+/WYLIONTest/out
+/WYLIONTest/local.properties

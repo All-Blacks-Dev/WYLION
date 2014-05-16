@@ -1,0 +1,30 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- ActionBar color -->
+    <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@null</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleText</item>
+        <item name="android:height">@dimen/action_bar_height</item>
+    </style>
+
+    <!-- ActionBar title text -->
+    <style name="ActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#f8f8f8</item>
+    </style>
+
+</resources>
