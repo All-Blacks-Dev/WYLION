@@ -27,7 +27,7 @@ public class WeatherFragment extends Fragment  {
      */
     private static final String ARG_SECTION_NUMBER = "section_number";
 
-    private WeatherListAdapter adapter;
+    private WeatherListAdapter weatherListAdapter;
     private WeatherUpdater weatherUpdater;
 
     /**
@@ -48,7 +48,7 @@ public class WeatherFragment extends Fragment  {
             super.handleMessage(msg);
             if (msg.what == WeatherUndergroundController.FORECAST_LONG.hashCode()) {
                 if (msg.arg1 == WeatherUndergroundController.OK) {
-                    adapter.setDataSet(((WeatherUndergroundWeatherDTO)msg.obj).getForecast().getSimpleForecast().getForecastDay());
+                    weatherListAdapter.setDataSet(((WeatherUndergroundWeatherDTO) msg.obj).getForecast().getSimpleForecast().getForecastDay());
                 }
             }
         }
@@ -61,10 +61,10 @@ public class WeatherFragment extends Fragment  {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.weather_fragment, container, false);
-        ListView listView = (ListView) rootView.findViewById(R.id.simpleList);
 
-        adapter = new WeatherListAdapter(this.getActivity());
-        listView.setAdapter(adapter);
+        weatherListAdapter = new WeatherListAdapter(this.getActivity());
+        ListView listView = (ListView) rootView.findViewById(R.id.forecastList);
+        listView.setAdapter(weatherListAdapter);
 
         Locality locality = new Locality();
         locality.setCountry("Belgium");

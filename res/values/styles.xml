@@ -16,7 +16,7 @@
     </style>
 
     <!-- ActionBar color -->
-    <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+    <style name="ActionBar" parent="@android:style/Widget.Holo">
         <item name="android:background">@null</item>
         <item name="android:titleTextStyle">@style/ActionBarTitleText</item>
         <item name="android:height">@dimen/action_bar_height</item>

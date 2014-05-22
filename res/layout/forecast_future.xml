@@ -9,12 +9,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dip"
-                android:layout_marginRight="10dip">
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dip">
 
         <ImageView
             android:id="@+id/forecast_icon"
             android:layout_width="match_parent"
-            android:layout_height="96dip"
+            android:layout_height="128dip"
             android:src="@drawable/ic_launcher"/>
 
         <TextView

@@ -9,6 +9,8 @@ import android.view.Menu;
 import android.view.View;
 
 import com.allblacks.R;
+import com.allblacks.fragments.NavigationDrawerFragment;
+import com.allblacks.fragments.WeatherDrawerFragment;
 import com.allblacks.fragments.WeatherFragment;
 
 public class ForecastActivity extends Activity implements NavigationDrawerFragment.NavigationDrawerCallbacks {
@@ -51,6 +53,5 @@ public class ForecastActivity extends Activity implements NavigationDrawerFragme
     public boolean onCreateOptionsMenu(Menu menu) {
         return super.onCreateOptionsMenu(menu);
     }
-
 
 }

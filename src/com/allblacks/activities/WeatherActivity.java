@@ -1,16 +1,15 @@
 package com.allblacks.activities;
 
-import android.app.ActionBar;
 import android.app.Activity;
 import android.app.FragmentManager;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 
 import com.allblacks.R;
+import com.allblacks.fragments.NavigationDrawerFragment;
 import com.allblacks.fragments.WeatherFragment;
 
 public class WeatherActivity extends Activity implements NavigationDrawerFragment.NavigationDrawerCallbacks {

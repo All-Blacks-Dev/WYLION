@@ -29,6 +29,7 @@ import android.widget.AbsListView.OnScrollListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ListAdapter;
+import android.widget.ListView;
 
 /**
  * A ListView that maintains a header pinned at the top of the list. The

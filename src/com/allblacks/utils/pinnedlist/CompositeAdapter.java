@@ -26,7 +26,6 @@ import java.util.Collection;
  * A general purpose adapter that is composed of multiple Collections. It just
  * appends them in the order they are added.
  */
-
 /**
  * This class is used instead of {@link CompositeAdapter} because creating
  * a cursor with the needed data would be too much in this case, using the POJOS

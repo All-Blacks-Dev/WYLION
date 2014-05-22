@@ -2,8 +2,8 @@
 /gen
 /.idea
 /out
-local.properties
-*.iml
+**/local.properties
+*/*.iml
 
 /WYLIONTest/bin
 /WYLIONTest/gen
