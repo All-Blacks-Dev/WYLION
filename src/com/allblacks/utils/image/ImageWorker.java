@@ -101,10 +101,6 @@ public class ImageWorker {
         }
     }
 
-    public static enum ImageType {
-        SHOW_BANNER, SHOW_POSTER, SHOW_SEASON_POSTER, MOVIE_POSTER, MOVIE_BANNER
-    }
-
     public class AsyncDrawable extends BitmapDrawable {
 
         private final WeakReference<BitmapWorkerTask> bitmapWorkerTaskReference;
@@ -236,8 +232,6 @@ public class ImageWorker {
         protected abstract String getImageURL(Object... params);
 
         protected abstract String getFilename(Object... params);
-
-        protected abstract ImageType getImageType();
     }
 
     public class BitmapReader {
