@@ -1,0 +1,7 @@
+rain
+nt_rain
+chancerain
+chancetstorms
+cloudy
+partlycloudy
+mostlycloudy
